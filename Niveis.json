@@ -1,0 +1,32 @@
+{
+	"titulo": "NIVEL",
+	"subtitulo": "N&iacute;veis de Reservat&oacute;rios e afins",
+	"tabela": "Volume",
+	"permissao" : {
+		"add": "S",
+		"dele": "S",
+		"edit": "S",
+		"list": "S",
+		"view": "S"
+		},
+	"email": "true",
+	"campos": {
+		"0": {"nome": "Id", "label": "Id", "tam": "6", "tamtot": "6", "tipo": "I", "coduser": "0"}
+		,"1": {"nome": "Sistema", "label": "Sistema", "tam": "50", "tamtot": "50", "tipo": "C", "coduser": "1",
+				"sele" : {
+					"0" : "Paraopeba"
+				}			
+			}
+		,"2": {"nome": "Rio", "label": "Rio", "tam": "50", "tamtot": "50", "tipo": "C", "coduser": "1",
+			"sele" : {
+				"0": "Rio das Velhas"
+				,"1" : "Rio Manso"
+				,"2" : "Rio Paraopeba"
+				,"3" : "Serra Azul"
+				,"4" : "Vargem das Flores"
+				}
+			}
+		,"3": {"nome": "DtMedicao", "label": "Data da<br>Medi&ccedil;&atilde;o", "tam": "10", "tamtot": "10", "tipo": "C", "coduser": "1"}
+		,"4": {"nome": "Volume", "label": "Volume", "tam": "10", "tamtot": "10", "tipo": "C", "coduser": "1"}
+		}
+	}

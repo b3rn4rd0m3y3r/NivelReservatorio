@@ -1,0 +1,92 @@
+/* Folha de Estilos para o PDE */
+A { color: #607DAB; font-weight: bold; text-decoration: none; }
+A.red { color: red; font-size: 18px; font-weight: bold;}
+A.blue { color: #2196F3; font-size: 18px; font-weight: bold;}
+BODY {
+	font-family: "Lucida Sans", Arial;
+	font-size: 14px;
+	}
+BUTTON.openform {
+	background: white;
+	color: white;
+	padding: 2px;
+	text-align: center;	
+	}
+H1 {
+	color: #404080;
+	font-size: 36px;
+	/* font-size: 26px; */
+	text-align: center;
+	}
+H2 {
+	/* color: #408080; */
+	color: #607DAB;
+	text-align: center;
+	}
+H1 ~ H2, H1.streito {
+	line-height: 105%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-block-start: 0em;
+	margin-block-end:  0em;
+	}
+INPUT, SELECT, TEXTAREA {
+	border-color: #405080;
+	border-width: 1px;
+	color: #405080;
+	}
+input:read-only {
+	background: lightsteelblue;
+	}
+INPUT.qry, INPUT[type="submit"] {
+	background: #405080;
+	color: white;
+	width: 120px;
+	}
+input[type="date" i] {
+    background-color: aliceblue;
+	color: #405080;	
+	}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+    background-color: aliceblue;
+	color: #405080;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+LABEL {
+	color: #405080;
+	font-weight: bold;
+	}
+SPAN.contorno {
+	background: #404080;
+	border: solid 1px #405080;
+	padding: 1px;
+	}
+SPAN.contorno.vm {
+	color: #404080;
+	border-color: palegoldenrod;
+	background-color: gold;
+	}
+SPAN.erro {
+	color:red;
+	font-weight: bold;
+	line-height: 200%;
+	}
+TABLE.entry {
+	padding-top: 30px;
+	}
+TH {
+	background-color: gray;
+	color: white;
+	}
+.big {
+	font-size: 36px;
+	}
+.msgBott {
+	margin-top: 10px;
+	}
